@@ -1,0 +1,17 @@
+Growth_Rate 0.5
+Migration_Rate 0.1
+Migration_Sex_Ratio 0.5
+Do_Long_Distance_Dispersal(LDD) lddkernel
+LDD_Lambda 0.1
+LDD_Mean_As_Parameter? true
+LDD_Mean|Shape 5.0
+LDD_Variance|Scale 1.0
+LDD_Min_Angle 0.0
+LDD_Max_Angle 360.0
+LDD_Sex_Ratio 0.5
+Proportion_Reproductive_Males 1.0
+Proportion_Reproductive_Females 1.0
+Mating_System random
+Ratio_Settlers 0.0
+Settlers layer0
+

@@ -1,0 +1,1 @@
+java -jar SINS2.jar -projectName Premade_SINS_Project -outDir output -numberOfSimulations 4 -compress SQLdb -parallel true -parallelCores 4 -verbose false -outputFormat sins -makeDemographicImages false 

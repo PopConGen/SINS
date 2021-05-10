@@ -1,0 +1,11 @@
+RecordDemographicOutput true
+RecordSummaryStats true
+RecordingStartsAt 0
+SaveDemographyInterval 5
+SaveGeneticsInterval 5
+SaveSummaryStatsInterval 5
+RecordingStartsAt 100
+SaveDemographyInterval 10
+SaveGeneticsInterval 10
+SaveSummaryStatsInterval 10
+

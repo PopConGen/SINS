@@ -1,0 +1,10 @@
+numberOfGenerations 1000
+numberOfLayers 1
+layerName0 layer0
+arrivalTime0 0
+admixtureSexRatio00 1.0
+admixture00 1.0
+competition00 1.0
+numberOfEnvironmentVariationEvents 1
+environmentVariationTime0 500
+

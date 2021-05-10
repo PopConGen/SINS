@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.10.4
+Created-By: ph0bi4
+Java-version: 1.8.0_181
+JVM-version: 25.181-b13
+Implementation-Title: SINS2
+Implementation-Version: 1.0
+Build-Version: 129
+SINS2-Version: 1.0.18.08.30.129
+SINS2-BuildStamp: 2018-08-30 14:25:11 WEST
+

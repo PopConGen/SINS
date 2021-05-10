@@ -1,0 +1,14 @@
+Xlength 1
+Xtype microsat
+Ylength 1
+Ytype microsat
+mtDNAlength 10
+mtDNAtype sequence
+numberOfAutosomes 1
+A1length 1
+A1type microsat
+XmutationRate 0.001
+YmutationRate 0.001
+mtDNAmutationRate 0.001
+A1mutationRate 0.001
+

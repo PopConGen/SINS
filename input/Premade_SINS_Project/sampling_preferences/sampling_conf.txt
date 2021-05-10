@@ -1,0 +1,9 @@
+numberOfConfigs 3
+subset_config0 none 
+subset_config1 all 
+subset_config2 subset subset_map2.txt 
+timeline
+startAt 0 subset_config0
+startAt 10 subset_config1
+startAt 50 subset_config2
+
