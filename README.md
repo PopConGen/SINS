@@ -43,3 +43,8 @@ Simulation Premade_SINS_Project has finished, time elapsed: 00hh : 00mm : 04ss 2
 ```
 
 You can now check the output of your simulation in the output folder inside the SINS folder (eg. at "~/Downloads/SINS/output/")
+
+If you want to know which other command line options are available when running SINS type or paste the following command in the command line:
+``` bash
+java -jar SINS2.jar -help
+```
