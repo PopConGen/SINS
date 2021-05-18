@@ -21,7 +21,7 @@ We include a toy example that you can use to try SINS.
 
 In the command line, move to the folder where SINS is located. If you downloaded our release (sins.zip) to your "Downloads" folder, then after you unzip it, the folder where SINS is located is called "SINS" and it will be under "~/Downloads/SINS".
 
-In the command line type the following command:
+In the command line type or paste the following command:
 ``` bash
 java -jar SINS2.jar -projectName Premade_SINS_Project -outDir output -numberOfSimulations 4 -compress noComp -parallel true -parallelCores 4 -verbose true -outputFormat sins -makeDemographicImages false 
 ```
