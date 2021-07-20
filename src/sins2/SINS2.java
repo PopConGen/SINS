@@ -229,8 +229,17 @@ public class SINS2 {
     private void processDemographicImages(long startTime) throws IOException {
         if (_makeDemographicImages.value) {
             
-            String pythonProgPath
-                    = "SINS_PlotDemographyStats" + File.separator + "PlotDemographySins";
+            /*String pythonProgPath =
+                    "SINS_PlotDemographyStats" + 
+                    File.separator + 
+                    "dist" +
+                    File.separator + 
+                    "PlotDemographySins";*/
+
+            String pythonProgPath =
+                "SINS_PlotDemographyStats" + 
+                File.separator + 
+                "PlotDemographySins";
             
             File pyProg = new File(pythonProgPath);
             
@@ -242,7 +251,6 @@ public class SINS2 {
                 pythonProgPath += ".py";
                 pyArgs.add("python3");
                 pyArgs.add(pythonProgPath);
-                
             }
 
             pyArgs.add("--projectPath=" +
@@ -259,7 +267,7 @@ public class SINS2 {
             for(int i = 0; i < pyOpts.size(); i++){
                 pyArgs.add(pyOpts.get(i));
             }
-            
+             
             ProcessBuilder pb = new ProcessBuilder(pyArgs);
             Process p = pb.start();
             BufferedReader pyIn = new BufferedReader(

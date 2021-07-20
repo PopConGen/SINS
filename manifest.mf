@@ -1,11 +1,11 @@
 Manifest-Version: 1.0
-Ant-Version: Apache Ant 1.10.4
-Created-By: ph0bi4
-Java-version: 1.8.0_181
-JVM-version: 25.181-b13
+Ant-Version: Apache Ant 1.10.8
+Created-By: tmaie
+Java-version: 11
+JVM-version: 11+28
 Implementation-Title: SINS2
 Implementation-Version: 1.0
-Build-Version: 129
-SINS2-Version: 1.0.18.08.30.129
-SINS2-BuildStamp: 2018-08-30 14:25:11 WEST
+Build-Version: 164
+SINS2-Version: 1.0.21.07.20.164
+SINS2-BuildStamp: 2021-07-20 19:14:13 CEST
 

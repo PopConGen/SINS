@@ -1,0 +1,8 @@
+IsMovieMP4 true
+movieFps 30
+movieDpi 100
+plotSumStats true
+IsVerbose false
+simList 1 
+saveAt 10 20 100 
+

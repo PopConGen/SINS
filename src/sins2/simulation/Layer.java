@@ -1141,7 +1141,7 @@ public final class Layer {//Outcomment "final" keyword for Unit testing
     
        
     static void doAllMovements(String _inputFolderPath, int currentGeneration,
-            Environment currentEnvironment, Layer[] layers,double[][] admixture, /*TIAGO*/double[][] admixtureSexRatio)  {
+            Environment currentEnvironment, Layer[] layers,double[][] admixture, double[][] admixtureSexRatio)  {
         
         Deme[][][] migrationInf=
                 new Deme[layers.length]
@@ -1187,20 +1187,15 @@ public final class Layer {//Outcomment "final" keyword for Unit testing
         }
         
 
-        doAdmixture(currentEnvironment, layers,migrationInf,admixture, /*TIAGO*/admixtureSexRatio);
-        //doAdmixtureTest(currentEnvironment, layers,migrationInf,admixture);
-                       
-        //layers[0].printGridOnScreen_MaleFemale();
+        doAdmixture(currentEnvironment, layers,migrationInf,admixture, admixtureSexRatio);
+
         //execute movements
         for (int i = 0; i < layers.length; i++) {
             layers[i].executeMovements(migrationInf[i]);
             
-            if (layers[i]._lddOption == LddOptions.METHOD_1)
+            if (layers[i]._lddOption == LddOptions.METHOD_1 && layers[i].hasEmptyDemes())
                 layers[i].executeMovements(migrationLDInf[i]);
         }
-        //layers[0].printGridOnScreen_MaleFemale();
-        //layers[0].printGridOnScreen();
-        //printInformation("doAllMovements");
     }
     
     /**
