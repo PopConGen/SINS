@@ -52,7 +52,7 @@ java -jar SINS2.jar -help
 ### Plot demographic stats
 If you want to create the demography statistics plots set '-makeDemographicImages true' in the command line, eg:
 ``` bash
-java -jar SINS2.jar -projectName Premade_SINS_Project -outDir output -numberOfSimulations 4 -compress noComp -parallel true -parallelCores 4 -verbose true -outputFormat sins -makeDemographicImages false
+java -jar SINS2.jar -projectName Premade_SINS_Project -outDir output -numberOfSimulations 4 -compress noComp -parallel true -parallelCores 4 -verbose true -outputFormat sins -makeDemographicImages true
 ```
 
 
