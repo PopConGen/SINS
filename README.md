@@ -23,7 +23,7 @@ In the command line, move to the folder where SINS is located. If you downloaded
 
 In the command line type or paste the following command:
 ``` bash
-java -jar SINS2.jar -projectName Premade_SINS_Project -outDir output -numberOfSimulations 4 -compress noComp -parallel true -parallelCores 4 -verbose true -outputFormat sins -makeDemographicImages false 
+java -jar SINS2.jar -projectName Premade_SINS_Project -outDir output -numberOfSimulations 4 -compress noComp -parallel true -parallelCores 4 -verbose true -outputFormat sins -makeDemographicImages false
 ```
 
 You should see something like the following output:
@@ -48,3 +48,12 @@ If you want to know which other command line options are available when running 
 ``` bash
 java -jar SINS2.jar -help
 ```
+
+### Plot demographic stats
+If you want to create the demography statistics plots set '-makeDemographicImages true' in the command line, eg:
+``` bash
+java -jar SINS2.jar -projectName Premade_SINS_Project -outDir output -numberOfSimulations 4 -compress noComp -parallel true -parallelCores 4 -verbose true -outputFormat sins -makeDemographicImages false
+```
+
+
+Make sure you have the python library 'matplotlib' installed.
