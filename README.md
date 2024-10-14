@@ -14,6 +14,9 @@ You can check this in the command line with:
 ``` bash 
 java --version
 ```
+## User guide
+
+You can check the detailed user guide here: https://github.com/PopConGen/SINS/blob/main/SINS_Userguide.pdf
 
 ## Getting started
 
