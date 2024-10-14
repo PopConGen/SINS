@@ -22,7 +22,7 @@ You can check the detailed user guide here: https://github.com/PopConGen/SINS/bl
 
 We include a toy example that you can use to try SINS.
 
-In the command line, move to the folder where SINS is located. If you downloaded our release (sins.zip) to your "Downloads" folder, then after you unzip it, the folder where SINS is located is called "SINS" and it will be under "~/Downloads/SINS".
+In the command line, move to the folder where SINS is located. If you downloaded our release (_sins.zip_) to your "_Downloads_" folder, then after you unzip it, the folder where SINS is located is called "sins" and it will be under "_~/Downloads/sins_".
 
 In the command line type or paste the following command:
 ``` bash
